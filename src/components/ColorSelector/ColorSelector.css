@@ -29,7 +29,20 @@
   color: rgba(25,25,25,0.5);
 }
 
-.color-preview {
-  width: 30%;
-  background-color: #c0e294;
+.color-preview  {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: calc(30% + 12px);
+  height: calc(100% + 20px);
+  transform: translate(12px, -14px);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.color-preview::-webkit-color-swatch {
+  border: none;
+}
+.color-preview::-moz-color-swatch {
+  border: none;
 }
