@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import {ColorSelector} from '@/components/ColorSelector'
+import {Palette} from '@/components/Palette'
 function App() {
 
 
@@ -8,6 +9,7 @@ function App() {
     <main>
       <h1>THE COOL PALETTE.</h1>
       <ColorSelector/>
+      <Palette/>
     </main> 
   )
 }

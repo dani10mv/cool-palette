@@ -1,0 +1,32 @@
+.palette{
+  height: 380px;
+  width: 900px;
+  display: flex;
+  margin-top: 80px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.palette-color{
+  width: calc(100%/5);
+  height: 100%;
+}
+
+.palette-color:nth-child(1){
+  background-color: #94AFE2;
+}
+.palette-color:nth-child(2){
+  background-color: #F9ABAB;
+
+}
+.palette-color:nth-child(3){
+  background-color: #C0E294;
+
+}
+.palette-color:nth-child(4){
+  background-color: #C9F9BD;
+
+}
+.palette-color:nth-child(5){
+  background-color: #F1E7FE;
+}
