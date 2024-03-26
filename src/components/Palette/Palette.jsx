@@ -16,7 +16,7 @@ export default function Palette() {
             backgroundColor: color.hex,
         },
         {
-          delay: index * 0.2 * 1000,
+          delay: index * 0.2 * 200,
           duration: 4000,
           fill: "forwards",
           easing: "ease",
